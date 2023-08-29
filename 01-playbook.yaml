@@ -1,7 +1,5 @@
-#Playbook
-- name:ping the node
+- name:pinging the node
   hosts:mongodb
-#list of tasks/collections
   tasks:
-  - name:pinging the node
-    ansible.builtin.ping:
+  - name:ping
+    ansible.biultin.ping:
