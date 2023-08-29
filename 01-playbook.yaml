@@ -4,5 +4,4 @@
 #list of tasks/collections
   tasks:
   - name:pinging the node
-    task:
-      ansible.builtin.ping:
+    ansible.builtin.ping:
