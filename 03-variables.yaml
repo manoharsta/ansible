@@ -4,4 +4,4 @@
   tasks:
   - name: print the sample message
     ansible.builtin.debug:
-    msg: "Hi, Devops with AWS"
+      msg: "Hi, Devops with AWS"
