@@ -1,5 +1,14 @@
-- name:pinging the node
-  hosts:mongodb
+# - name:pinging the node
+#   hosts:mongodb
+#   tasks:
+#   - name:ping
+#     ansible.biultin.ping:
+
+# Playbook is list of plays, always it should start with -
+- name: ping the node
+  hosts: mongodb
+  # this is list of tasks/modules/collections
   tasks:
-  - name:ping
-    ansible.biultin.ping:
+  - name: pinging the server
+    # this is the map
+    ansible.builtin.ping:
