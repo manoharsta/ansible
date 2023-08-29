@@ -1,0 +1,5 @@
+[mongodb]
+roboshop-us-dev-db-mongodb-01.jdevops.cloud
+
+[app]
+roboshop-us-dev-app-cart-01.jdevops.cloud
